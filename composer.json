@@ -1,0 +1,12 @@
+{
+  "name": "demo/php-fibers-demo",
+  "description": "Simple demo of PHP Fibers with a cooperative scheduler",
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Demo\\": "src/"
+    }
+  }
+}
